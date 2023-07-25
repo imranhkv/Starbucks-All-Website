@@ -1,0 +1,284 @@
+@font-face {
+  font-family: "SodoB";
+  src: url("../../fonts/SoDoSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "SodoSB";
+  src: url("../../fonts/SoDoSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Sodo";
+  src: url("../../fonts/sodo-sans-8.ttf");
+}
+
+@font-face {
+  font-family: "SodoR";
+  src: url("../../fonts/SoDoSans-Regular.ttf");
+}
+
+body {
+  font-family: "Sodo";
+}
+
+.container {
+  width: 1450px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 2px 3px 2px 0px rgba(175, 175, 175, 0.477);
+  border-bottom: 1px solid #afafaf2d;
+  height: 100px;
+  /* width: 1519px; */
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 380px;
+}
+
+.navbar-left li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  padding-top: 40px;
+}
+
+.navbar-left a {
+  display: inline-block;
+  align-items: center;
+  color: #000000de;
+  font-weight: 600;
+  font-size: 13.5px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  font-family: "SodoB";
+  text-transform: uppercase;
+  height: 100%;
+}
+
+.navbar-left a:hover {
+  color: #006241;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-right a {
+  font-family: "SodoSB";
+  color: #000000de;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.navbar-right-findstore a {
+  display: inline-block;
+  height: 100px;
+  padding-top: 40px;
+  margin-right: 32px;
+  font-size: 15px;
+}
+
+.navbar-right-findstore a:hover {
+  color: #006241;
+}
+
+.navbar-right-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  /* width: 180px; */
+}
+
+#findastore i {
+  margin-right: 7px;
+  font-size: 18px;
+}
+
+#signin {
+  background: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 8px 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+#signin:hover {
+  background-color: #91919140;
+  color: #000;
+}
+
+#joinnow {
+  background: #000;
+  color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 8px 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#joinnow:hover {
+  background-color: #000000be;
+}
+
+a.active {
+  border-bottom: 6px solid #006241;
+}
+
+.hamburger-menu{
+  display: none;
+}
+.display-none{
+  display: none;
+}
+/* Responsive Styles */
+
+@media (max-width:1600px) {
+  /* .container-px{
+    width: 95%;
+    margin: 0 auto;
+  } */
+  .container{
+    width: 92%;
+    margin: 0 auto;
+  }
+  .container-gift{
+    width: 92%;
+    margin: 0 auto;
+  }
+  .header{
+   width: 100%;
+  }
+  #joinnow,#signin{
+    font-size: 14px;
+
+  }
+}
+
+@media (max-width:1341px) {
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+  }
+  .navbar-left li{
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .header{
+    width: 100%;
+  }
+  .hamburger-menu{
+    position: relative;
+    display: block;
+  }
+  .navbar li{
+    display: none;
+  }
+  .navbar-left li {
+    display: none;
+  }
+  .navbar-left{
+    width: 100%;
+  }
+  .navbar-right {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: absolute;
+    text-align: right;
+    top: 22px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+  }
+
+  .navbar-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .navbar-menu li {
+    margin-bottom: 16px;
+  }
+
+  .navbar-menu a {
+    font-size: 16px;
+    padding: 8px;
+    color: #000;
+    
+  }
+  .navbar-right-buttons{
+    margin: 20px 0;
+  }
+
+  .menu-toggle {
+    position: absolute;
+    top: -40px;
+    right: 10px;
+    /* left: 100%; */
+    display: block;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #000000de;
+    margin-left: 16px;
+    z-index: 9999;
+  }
+
+  a.active {
+    border-bottom: none;
+  }
+}
+
+
+

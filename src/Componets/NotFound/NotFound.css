@@ -1,0 +1,95 @@
+.notfound-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 300vh; */
+    /* height: 2500px; */
+
+}
+
+.notfound-area-right-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+
+
+}
+
+.notfound-area-right-content-img img {
+    width: 239px;
+    height: 189px;
+}
+
+.notfound-area-left {
+    position: relative;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notfound-area-left-content {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+}
+
+.notfound-area-left h3 {
+    color: #222;
+    font-size: 28px;
+    font-family: "SodoSB";
+    margin-top: 50px;
+
+}
+
+.giftcard-area::-webkit-scrollbar {
+    appearance: none;
+}
+
+
+
+.notfound-area-right {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.notfound-area-right-content-top-bottom {
+    height: 600px;
+    background-color: #f7f7f7;
+
+}
+
+.notfound-area-right-content-text h4 {
+    font-size: 36px;
+    font-family: 'SodoB';
+    color: #000000de;
+}
+
+.notfound-area-right-content-text h5 {
+    font-size: 24px;
+    font-family: 'SodoR';
+    color: #000000de;
+    margin: 20px 0;
+    width: 400px;
+}
+
+.notfound-area-right-content-text p {
+    color: #00000094;
+    font-size: 16px;
+    font-family: 'SodoR';
+}
+
+.notfound-area-right-content-text a {
+    color: #00754a;
+}

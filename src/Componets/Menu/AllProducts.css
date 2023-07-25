@@ -1,0 +1,143 @@
+.allproducts {
+    display: flex;
+    padding: 40px 0 40px 90px;
+}
+
+.category-left {
+    text-align: left;
+}
+
+.category-left h4 {
+    font-size: 19px;
+    font-family: 'SodoSB';
+    margin-bottom: 20px;
+}
+
+.category-buttons button {
+    /* margin: 10px 0; */
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    text-align: left;
+    width: 150px;
+    margin: 12px auto;
+    font-family: 'SodoR';
+    color: #00000094;
+    font-size: 16px;
+    padding: 0;
+}
+
+.menu-right {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+}
+
+.menu-right h2 {
+    font-size: 28px;
+    color: #000000de;
+    font-family: 'SodoB';
+    margin: 20px 0 60px 0;
+}
+.menu-right-head-nonselected h3{
+    font-size: 28px;
+    color: #000000de;
+    font-family: 'SodoB';
+    margin: 0 0 60px 0;
+}
+.menu-right-head-nonselected h5{
+    font-size: 24px;
+    color: #000000de;
+    font-family: 'SodoB';
+    margin: 0 0 30px 0;
+}
+.menu-right h4{
+    color: #00000094;
+    font-family: 'SodoSB';
+}
+.menu-right a{
+    color: #00000094;
+    font-family: 'SodoR';
+}
+.menu-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 650px; */
+}
+
+.menu-buttons-content button{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 450px;
+    background-color: transparent;
+    border: 0;    
+    cursor: pointer;
+    font-size: 19px;
+    color: #000000de;
+    font-family: 'SodoR';
+    margin: 20px auto;
+}
+.menu-buttons-content button img{
+    margin-right: 20px;
+    object-fit: cover;
+}
+.menu-buttons-content button h4{
+    color: #000000de;
+    font-family: 'SodoR';
+}
+.menu-buttons img{
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 100px;
+}
+
+.product-card-content {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 40px;
+}
+
+.products-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-head h3 {
+    width: fit-content;
+    font-size: 24px;
+    color: #000000de;
+    font-family: 'SodoB';
+    margin: 20px 0 30px 0;
+}
+
+.product-card {
+    margin: 20px 0;
+    object-fit: cover;
+}
+.border-products{
+    width: 920px;
+    height: 1.5px;
+    background-color: #afafaf7e;
+    box-shadow: 2px 3px 2px 0px rgba(200, 199, 199, 0.096);
+    margin: 0 0 30px 0;
+}
+.product-card img {
+    display: inline-block;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.product-card h4 {
+    width: 200px;
+    margin-top: 20px;
+    color: #000000de;
+}
+.menu-footer{
+    padding: 00px 0px 0px 90px;
+}

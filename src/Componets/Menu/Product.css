@@ -1,0 +1,379 @@
+.product-navbar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #f9f9f9;
+    height: 53px;
+    border-top: 1px solid #afafaf30;
+    border-bottom: 1px solid #afafaf30;
+    position: sticky;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 99;
+
+
+}
+
+.product-navbar a {
+    padding: 0 0 0 90px;
+    font-size: 14px;
+    font-family: 'Sodo';
+    color: #000000de;
+    padding-bottom: 5px;
+}
+
+.product-navbar span {
+    font-size: 14px;
+    font-family: 'Sodo';
+    color: #000000de;
+    padding-bottom: 5px;
+}
+
+.product-navbar span:nth-child(3) {
+    font-family: 'SodoB';
+}
+
+.product-main-product-page {
+    background-color: #1e3932;
+    padding: 30px 0;
+}
+
+.product-main-product-page-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1300px;
+
+}
+
+.size-options-content {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.product-main-product-page-left img {
+    width: 300px;
+}
+
+.product-main-content-bottom-right {
+    margin: 50px 0;
+}
+
+.product-main-product-page-right h2 {
+    font-size: 36px;
+    color: #fff;
+    font-family: 'SodoB';
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.product-main-product-page-right p {
+    font-size: 24px;
+    color: #ffffffb2;
+    font-family: 'Sodo';
+
+}
+
+.product-main-content-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1200px;
+}
+
+.size-options-main {
+    margin-top: 80px;
+}
+
+.size-options-head h2 {
+    font-size: 24px;
+    font-family: 'SodoB';
+    color: #000000de;
+    margin-bottom: 15px;
+}
+
+.size-options-content {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 420px;
+    margin: 0 auto;
+}
+
+.size-options-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.size-options-buttons button {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0 auto 0;
+    font-family: 'SodoSB';
+    font-size: 16px;
+
+}
+
+.size-options-buttons h4 {
+    font-family: 'SodoR';
+    font-size: 14px;
+    cursor: default;
+}
+
+.size-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.size-img a {
+    display: flex;
+    flex-direction: column;
+}
+
+.size-options-bottom {
+    margin-top: 70px;
+}
+
+.size-options-bottom span {
+    color: #00000094;
+
+}
+
+.size-options-bottom i {
+    margin-right: 15px;
+}
+
+/* right area */
+.customized-head h2 {
+    font-size: 24px;
+    font-family: 'SodoB';
+    color: #000000de;
+    margin-bottom: 15px;
+}
+
+.product-border {
+    width: 420px;
+    height: 4px;
+    background-color: #d4e9e2;
+    margin: 0 0 30px 0;
+}
+
+.products-inputs {
+    width: 420px;
+    margin: 50px auto;
+}
+
+.products-inputs p {
+    margin: 40px 0;
+}
+
+.products-inputs span {
+    color: #00754a;
+}
+
+.order-button button {
+    position: fixed;
+    top: 72%;
+    right: 2%;
+    border: 1px solid #00754a;
+    background-color: #00754a;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'SodoSB';
+    width: 187px;
+    height: 59px;
+    border-radius: 50px;
+    margin: 20px 0 20px 220px;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.products-inputs article {
+    margin: 20px 0 0 0;
+    color: #000000de;
+    font-size: 16px;
+    font-family: 'SodoR';
+    width: 390px;
+    line-height: 22px;
+}
+
+.products-content {
+    margin: 30px 0;
+}
+
+.products-content select {
+    padding: 16px 20px;
+    border-radius: 7px;
+    border: 1px solid #00000094;
+    outline: none;
+}
+
+select.products-content::-webkit-outer-spin-button,
+  select.products-content::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+
+.products-content-top {
+    margin-bottom: 50px;
+}
+
+
+.products-content input::placeholder {
+    color: #000000;
+    font-size: 17px;
+    font-family: 'SodoR';
+}
+
+.products-inputs-bottom {
+    margin: 30px 0;
+}
+
+.products-inputs-bottom h4 {
+    margin: inherit;
+    color: #00000094;
+    font-family: 'SodoB';
+    font-size: 14px;
+}
+
+.products-inputs-bottom p {
+    margin: inherit;
+    color: #000000;
+    font-size: 16px !important;
+    font-family: 'SodoR' !important;
+    line-height: 22px;
+}
+
+.products-inputs-bottom a {
+    color: #00754a;
+    text-decoration: underline;
+}
+
+.products-content-label label {
+    display: flex;
+    align-items: center;
+    border: 1px solid #00000094;
+    border-radius: 7px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.products-content-label input {
+    width: 400px;
+    padding: 0 20px;
+    border: 0;
+    outline: none;
+    overflow: hidden;
+}
+
+.products-content-label input::placeholder {
+    color: #000000de;
+}
+
+.products-content-label p {
+    margin-right: 20px;
+}
+
+.products-content-label button {
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #00754a;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.products-content-label button i {
+    font-size: 10px;
+    color: #036340;
+}
+
+.products-content-button {
+    margin: 30px 0;
+}
+
+.products-content-button button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1e3932;
+    padding: 16px 0;
+    width: 160px;
+    border-radius: 30px;
+    color: #fff;
+    font-family: 'SodoSB';
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.products-content-button button i {
+    color: #cba258;
+}
+
+.active-size {
+    position: absolute;
+    border: 2px solid #036340;
+    background-color: #06915e30;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+/* son */
+
+.product-main-green-area {
+    background-color: #1e3932;
+    padding: 30px 0;
+}
+
+.product-main-green-area-content {
+    margin-left: 95px;
+}
+
+.product-main-green-area span {
+    color: #cba258;
+    font-size: 14px;
+    font-family: 'Sodo';
+    border: 1px solid #cba258;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.product-main-green-area p {
+    width: 420px;
+    font-size: 14px;
+    color: #ffffffe2;
+    margin: 20px 0;
+    font-family: 'Sodo';
+}
+
+.product-main-green-area h4 {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 20px 0;
+    font-family: 'Sodo';
+}
+
+.product-main-green-area a {
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'SodoSB';
+    border: 2px solid #fff;
+    padding: 7px 16px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}

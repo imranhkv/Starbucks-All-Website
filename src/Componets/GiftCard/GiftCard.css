@@ -1,0 +1,241 @@
+.giftcard-header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.giftcard-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  overflow-x: hidden;
+
+}
+
+.giftcard-area-right-content-top-bottom {
+  height: 1800px;
+  background-color: #f7f7f7;
+}
+
+.giftcard-area-right-content img {
+  width: fit-content;
+  height: fit-content;
+}
+
+.giftcard-area-left {
+  position: relative;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.giftcard-area-left-content {
+  position: fixed;
+  top: 50%;
+  left: 10%;
+}
+
+.giftcard-area-left a {
+  color: #777;
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-family: "SodoB";
+
+}
+
+.giftcard-area-left h3 {
+  color: #222;
+  font-size: 28px;
+  font-family: "SodoB";
+  margin-top: 50px;
+
+}
+
+.gift-card-area-right {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f7f7f7; */
+
+}
+
+
+.gift-card-area-right img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 323px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.giftcard-area-right-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+.gift-card-footer {
+  /* position: relative; */
+  height: 400px;
+}
+
+.accordion-footer {
+  position: absolute;
+  left: 20px;
+}
+
+.accordion-footer-collapse {
+  /* background-color: #fff; */
+  width: 850px;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-collapse {
+  border: none;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-collapse>.ant-collapse-item:last-child,
+:where(.css-dev-only-do-not-override-12jzuas).ant-collapse>.ant-collapse-item:last-child>.ant-collapse-header {
+  border-radius: inherit;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-collapse-small>.ant-collapse-item>.ant-collapse-header {
+  padding: 15px 12px;
+}
+
+.ant-collapse-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  flex-direction: row-reverse;
+}
+
+.ant-collapse .ant-collapse-icon-position-start .ant-collapse-small .css-dev-only-do-not-override-12jzuas {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom: none;
+}
+:where(.css-dev-only-do-not-override-12jzuas).ant-collapse>.ant-collapse-item{
+  border-bottom: inherit;
+}
+:where(.css-dev-only-do-not-override-12jzuas).ant-collapse>.ant-collapse-item >.ant-collapse-header{
+  background-color: #fff !important;
+}
+:where(.css-dev-only-do-not-override-12jzuas).ant-collapse-small >.ant-collapse-item >.ant-collapse-header >.ant-collapse-expand-icon{
+  color: #000000;
+}
+.ant-collapse-header-text {
+  color: #000000de;
+  font-family: 'SodoR';
+  font-size: 19px;
+}
+
+.collapse-content a {
+  display: block;
+  color: #00000094;
+  margin: 20px 0;
+  font-size: 16px;
+  font-family: 'SodoR';
+}
+
+.ant-collapse-item {
+  background-color: transparent !important;
+  padding: inherit;
+  margin: 15px 0;
+}
+
+.accordion-footer-socialnetworks {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 40px 0;
+}
+
+.accordion-footer-socialnetworks i {
+  background-color: #222;
+  color: #fff;
+  font-size: 16px;
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.accordion-footer-privacy {
+  text-align: left;
+}
+
+.accordion-footer-privacy {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 20px 0 30px 0;
+}
+
+.accordion-footer-privacy a {
+  color: #000000de;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: "Sodo";
+  margin: 10px 0;
+}
+.accordion-footer-privacy a:hover{
+  text-decoration: underline;
+
+}
+
+.accordion-designed {
+  margin: 20px 0 20px 0;
+  color: #333;
+}
+
+.accordion-designed span {
+  color: #006241;
+
+}
+
+select {
+  padding: 16px 20px;
+  border-radius: 7px;
+  border: 1px solid #00000094;
+  outline: none;
+}
+option{
+  color: #000000;
+    font-size: 14px;
+    font-family: 'SodoR';
+}
+.form-content-top-gift-card{
+  width: 323px;
+  margin: 0 auto;
+}
+.giftcard-button{
+  position: fixed;
+  top: 80%;
+  right: -2%;
+  /* display: inline-block; */
+  margin: 50px 100px 0 0;
+  z-index: 999;
+}
+.footer-border-giftcard{
+  width: 100%;
+    height: 3px;
+    background-color: #afafaf7e;
+    box-shadow: 2px 3px 2px 0px rgba(175, 175, 175, 0.162);
+    /* margin: 0 0 30px 0; */
+}
+

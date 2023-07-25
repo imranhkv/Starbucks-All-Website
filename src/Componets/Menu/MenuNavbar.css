@@ -1,0 +1,33 @@
+.menunavbar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #f9f9f9;
+    height: 53px;
+    border-top: 1px solid  #afafaf30;
+    border-bottom: 1px solid  #afafaf30;
+    position: sticky;
+    right: 0;
+    left: 0;
+    top: 0;
+    
+
+}
+
+.menunavbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    padding: 0 0 0 90px;
+}
+
+.menunavbar a {
+    font-size: 13px;
+    font-family: 'SodoR';
+    color: #000000de;
+    padding-bottom: 5px;
+}
+.menunavbar a.active{
+    border-bottom: 1px solid #000000de;
+}

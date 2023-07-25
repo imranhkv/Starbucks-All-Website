@@ -1,0 +1,189 @@
+.featured-top-head h2{
+    text-align: center;
+    font-size: 50px;
+    color: #1e3932;
+    font-family: 'SodoB';
+    margin: 40px 0 10px 0;
+}
+.photos-area-wrapper-featured {
+    display: flex;
+    justify-content: center;
+  }
+
+.photos-area-featured{
+    margin: 30px 0;
+}
+.content-featured{
+    display: flex;
+    margin: 18px 0;
+}
+.content-text-featured{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 624px;
+    background-color: #eb81a5;
+    width: 725px;
+    text-align: center;
+}
+.content-text-featured h2{
+    font-size: 36px;
+    color: #fff;
+    font-family: "Sodo";
+    width: 550px;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #1e3932;
+}
+.content-text-featured p{
+    font-size: 24px;
+    color: #fff;
+    font-family: "Sodo";
+    width: 517px;
+    line-height: 35px;
+    margin: 20px 0;
+    color: #1e3932;
+
+}
+.content-text-featured a{
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    width: 120px;
+    padding: 8px 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #1e3932;
+    transition: .3s;
+}
+.content-featured:nth-child(2) .content-text-featured{
+    background-color: #eb81a5;
+}
+.content-featured:nth-child(1) .content-text-featured a:hover{
+    background-color: #284a4131 ;
+}
+.content-img-signin img{
+    width: 725px;
+    height: 624px;
+    /* object-fit: cover; */
+}
+.content-featured:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.content-featured:nth-child(2) .content-img-signin img{
+    width: 710px;
+    margin: 0 auto;
+}
+.content-featured:nth-child(2) .content-text-featured h2{
+    color: #1e3932;
+    letter-spacing: 3px;
+    width: 500px;
+}
+.content-featured:nth-child(2) .content-text-featured p{
+    color: #1e3932;
+}
+.content-featured:nth-child(2) .content-text-featured a{
+    width: 140px;
+    color: #1e3932;
+}
+.content-featured:nth-child(2) .content-text-featured a:hover{
+    background-color: #83b4e2;
+}
+
+.content-featured:nth-child(3) .content-text-featured{
+    background-color: #f1ff67;
+}
+.content-featured:nth-child(3) .content-text-featured h2{
+    color: #1e3932;
+    letter-spacing: 3px;
+    width: 500px;
+    font-size: 50px;
+}
+.content-featured:nth-child(3) .content-text-featured p{
+    color: #1e3932;
+}
+.content-featured:nth-child(3) .content-text-featured a{
+    width: 120px;
+    color: #1e3932;
+}
+.content-featured:nth-child(3) .content-text-featured a:hover{
+    background-color: #284a4131 ;
+}
+.content-featured:nth-child(4){
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.content-featured:nth-child(4) .content-img-signin img{
+    width: 710px;
+    margin: 0 auto;
+}
+.content-featured:nth-child(4) .content-text-featured h2{
+    color: #1e3932;
+    letter-spacing: 3px;
+    width: 500px;
+}
+.content-featured:nth-child(4) .content-text-featured p{
+    color: #1e3932;
+}
+.content-featured:nth-child(4) .content-text-featured a{
+    width: 120px;
+    color: #1e3932;
+}
+.content-featured:nth-child(4) .content-img-signin img{
+   object-fit: cover;
+}
+.content-featured:nth-child(4) .content-text-featured a:hover{
+    background-color: #b3cc67;
+}
+.content-featured:nth-child(5) .content-text-featured{
+    background-color: #006421;
+    height: 420px;
+}
+.content-featured:nth-child(5) .content-text-featured h2{
+    color: #fff;
+    font-size: 24px;
+}
+.content-featured:nth-child(5) .content-text-featured p{
+    color: #fff;
+    font-size: 19px;
+}
+.content-featured:nth-child(5) .content-text-featured a{
+    color: #fff;
+}
+.content-featured:nth-child(5) .content-text-featured a:hover{
+    background-color: #284a41c7 ;
+}
+.content-featured:nth-child(5) .content-img-signin img{
+    height: 420px;
+}
+
+.information-area-featured{
+    padding: 30px 0 15px 0;
+    font-size: 13px;
+    font-family: "Sodo";
+    width: 620px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+.information-area-featured a{
+    color: #000;
+    text-decoration: underline;
+}
+.border{
+    width: 100%;
+    height: 2px;
+    background-color: #afafaf7e;
+    box-shadow: 2px 3px 2px 0px rgba(175, 175, 175, 0.162);
+    margin: 0 0 30px 0;
+}

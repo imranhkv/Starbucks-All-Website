@@ -1,0 +1,296 @@
+.shopping-cart-all {
+    display: grid;
+    grid-template-columns: 0.65fr 1fr;
+    grid-template-rows: auto;
+    /* Değişiklik burada */
+    grid-column-gap: 0px;
+    grid-row-gap: 50px;
+    align-items: stretch;
+}
+
+.shopping-cart-left {
+    display: flex;
+    flex-direction: column;
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: #1e3932;
+    min-height: 180vh;
+    height: 100%;
+    /* Değişiklik burada */
+}
+
+.shopping-cart-left-content-all {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    /* align-items: center; */
+    position: fixed;
+    margin: 30px 0 30px 30px;
+}
+
+.shopping-cart-left-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 80vh;
+    /* align-items: center; */
+}
+
+.shopping-cart-left-top {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.shopping-cart-left-top a {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'SodoSB';
+}
+
+.shopping-cart-left-content h3 {
+    font-size: 24px;
+    color: #fff;
+    font-family: 'SodoB';
+}
+
+.shopping-cart-left-content h4 {
+    font-size: 16px;
+    color: #d4e9e2;
+    font-family: 'SodoSB';
+}
+
+.shopping-cart-left-content p {
+    font-size: 14px;
+    color: #ffffffb2;
+    font-family: 'Sodo';
+}
+
+.shopping-cart-left-content h5 {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'SodoR';
+}
+
+.shopping-cart-left-content i {
+    color: #fff;
+}
+
+.shopping-cart-right {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: start;
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: #edebe9;
+    min-height: 80vh;
+}
+
+.shopping-cart-right-all {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.order-cart {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 500px;
+    height: 198px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.order-cart img {
+    width: 134px;
+    border-radius: 50%;
+}
+
+.order-cart h3 {
+    font-size: 24px;
+    color: #000000de;
+    font-family: 'Sodo';
+}
+
+.order-cart h4 {
+    font-size: 16px;
+    color: #000000de;
+    font-family: 'Sodo';
+    margin: 10px 0 20px 0;
+}
+
+.order-cart p {
+    color: #000000de;
+}
+
+.shopping-cart-left-select h4 {
+    color: #ffffffb2;
+    font-size: 17px;
+    font-family: 'SodoSB';
+    padding: 5px 50px 5px 0;
+
+}
+
+.shopping-cart-left-select select {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-family: 'SodoSB';
+    font-size: 17px;
+    padding: 5px 380px 5px 0;
+}
+
+.cart-edit-functions {
+    display: flex;
+    margin: 30px 0 0 0;
+    gap: 20px;
+}
+
+.cart-edit-functions button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #00000094;
+    border-radius: 50%;
+    color: #00000094;
+    font-size: 12px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.cart-edit-functions button:nth-child(1) {
+    border: none;
+    font-size: 17px;
+}
+
+.shopping-cart-footer {
+    /* position: relative; */
+    height: 400px;
+}
+
+.shopping-cart {
+    position: absolute;
+    left: 20px;
+}
+
+.shopping-cart-collapse {
+    /* background-color: #fff; */
+    width: 850px;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-collapse {
+    border: none;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-collapse>.ant-collapse-item:last-child,
+:where(.css-dev-only-do-not-override-12jzuas).ant-collapse>.ant-collapse-item:last-child>.ant-collapse-header {
+    border-radius: inherit;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-collapse-small>.ant-collapse-item>.ant-collapse-header {
+    padding: 15px 12px;
+}
+
+.ant-collapse-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: row-reverse;
+}
+
+.ant-collapse .ant-collapse-icon-position-start .ant-collapse-small .css-dev-only-do-not-override-12jzuas {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: none;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-collapse>.ant-collapse-item {
+    border-bottom: inherit;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-collapse>.ant-collapse-item>.ant-collapse-header {
+    background-color: #fff !important;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-collapse-small>.ant-collapse-item>.ant-collapse-header>.ant-collapse-expand-icon {
+    color: #000000;
+}
+
+.ant-collapse-header-text {
+    color: #000000de;
+    font-family: 'SodoR';
+    font-size: 19px;
+}
+
+.collapse-content a {
+    display: block;
+    color: #00000094;
+    margin: 20px 0;
+    font-size: 16px;
+    font-family: 'SodoR';
+}
+
+.ant-collapse-item {
+    background-color: transparent !important;
+    padding: inherit;
+    margin: 15px 0;
+}
+
+.shopping-cart-socialnetworks {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 40px 0;
+}
+
+.shopping-cart-socialnetworks i {
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.shopping-cart-privacy {
+    text-align: left;
+}
+
+.shopping-cart-privacy {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 20px 0 30px 0;
+}
+
+.shopping-cart-privacy a {
+    color: #000000de;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Sodo";
+    margin: 10px 0;
+}
+
+.shopping-cart-privacy a:hover {
+    text-decoration: underline;
+
+}
+
+.accordion-designed {
+    margin: 20px 0 20px 0;
+    color: #333;
+}
+
+.accordion-designed span {
+    color: #006241;
+
+}

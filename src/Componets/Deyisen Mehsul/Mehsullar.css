@@ -1,0 +1,151 @@
+.coffee-products {
+    margin: 100px 0;
+}
+
+.coffee-products-head {
+    text-align: center;
+    background-color: #d3e8e154;
+    padding: 50px 0 0 0;
+}
+
+.coffee-products-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 50px auto auto auto;
+
+}
+
+.coffee-products-buttons span {
+    font-size: 20px;
+    color: #cba258;
+}
+
+.coffee-products-buttons button {
+    background-color: transparent;
+    border: 0;
+    font-size: 24px;
+    color: #000000de;
+    font-family: 'SodoSB';
+    cursor: pointer;
+    width: 90px;
+}
+
+.coffee-products-head h3 {
+    font-size: 28px;
+    color: #000000de;
+    font-family: 'SodoSB';
+}
+
+.coffee-products-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background-color: #d4e9e2;
+}
+
+.coffee-products-content-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+
+.coffee-products-content-img img {
+    width: 375px;
+}
+
+.coffee-products-content-text h4 {
+    width: 330px;
+    font-size: 24px;
+    color: #000000de;
+    font-family: 'SodoSB';
+}
+
+.coffee-products-content-text p {
+    font-family: 'SodoR';
+    width: 330px;
+    font-size: 15px;
+    color: #000000de;
+    margin-top: 20px;
+}
+
+.coffee-products-buttons a {
+    text-decoration: none;
+    color: #000;
+}
+
+.coffee-products-buttons a.active {
+    border-bottom: 6px solid #006241;
+}
+
+@media (max-width:850px) {
+    .coffee-products-content-card {
+        display: inherit;
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .coffee-products-head {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .coffee-products-content {
+        display: inherit;
+        text-align: center;
+    }
+
+    .coffee-products-content-text h4 {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 18px;
+        padding-bottom: 20px;
+
+    }
+
+    .coffee-products-content-text p {
+        display: none;
+    }
+
+    .coffee-products-buttons {
+        justify-content: center;
+        width: 80%;
+        margin: 20px auto auto auto;
+    }
+
+    .coffee-products-buttons span {
+        font-size: 17px;
+        color: #cba258;
+    }
+
+    .coffee-products-buttons button {
+        font-size: 19px;
+        margin: 0 auto;
+    }
+
+    .coffee-products-content-img img {
+        width: 65%;
+    }
+
+
+
+}
+
+@media (max-width:576px) {
+    .coffee-products-content-img img {
+        width: 70%;
+    }
+
+    .coffee-products-buttons span {
+        font-size: 14px;
+    }
+
+    .coffee-products-buttons button {
+        font-size: 16px;
+        margin: 0 auto;
+    }
+}

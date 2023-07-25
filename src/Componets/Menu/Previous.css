@@ -1,0 +1,32 @@
+.previous{
+    padding: 0 0 0 90px;
+    margin: 50px 0;
+}
+.previous h3{
+    font-family: 'SodoB';
+    color: #000000de;
+    font-size: 24px;
+}
+.previous img{
+    margin: 40px 0 25px 0;
+}
+.previous h4{
+    font-family: 'SodoSB';
+    color: #000000de;
+    font-size: 28px;
+    width: 300px;
+    line-height: 40px;
+}
+.previous p{
+    font-family: 'SodoR';
+    color: #00000094;
+    font-size: 19px;
+    width: 320px;
+    margin: 16px 0 30px 0;
+}
+.previous a{
+    display: inline-block;
+    color: #000;
+    margin-right: 20px;
+    width: 95px;
+}

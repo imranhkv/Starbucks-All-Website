@@ -1,0 +1,269 @@
+.joinnow-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 999; */
+    background-color: #fff;
+    box-shadow: 2px 3px 2px 0px rgba(175, 175, 175, 0.355);
+    border-bottom: 1px solid #afafaf2d;
+    /* height: 100px; */
+}
+
+.joinnow-header a {
+    display: inline-block;
+    width: 45px;
+}
+
+.form-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    /* height: 100vh; */
+    border: 1px solid #00000043;
+    box-shadow: 2px 3px 2px rgba(52, 52, 52, 0.551);
+    border-radius: 8px;
+    width: 550px;
+    margin: 10px auto 100px auto;
+
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-inputs label {
+    font-size: 19px;
+    font-family: 'SodoSB';
+    font-family: 700;
+    color: #000000de;
+    margin: 15px 0;
+}
+
+.form-area-head-signin {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.form-area-head-signin h2 {
+    font-size: 28px;
+    font-family: 'SodoB';
+    font-family: 700;
+    color: #000000de;
+    margin: 0 0 30px 0;
+}
+
+.myCheckboxClass-signin {
+    width: 25px;
+    height: 25px;
+    overflow: visible;
+    fill: currentcolor;
+}
+
+.myCheckboxClass:checked {
+    background-color: #00754a;
+}
+
+
+.form-area-head p {
+    width: 500px;
+    font-size: 14px;
+    font-family: 'SodoR';
+    text-align: center;
+    margin: 20px auto 20px auto;
+    color: #00000094;
+    line-height: 20px;
+}
+
+.form-inputs {
+    width: 400px;
+    margin: 50px auto;
+}
+
+.form-inputs p {
+    margin: 40px 0;
+}
+
+.form-inputs span {
+    color: #00754a;
+}
+
+#signin-button {
+    border: 1px solid #00754a;
+    background-color: #00754a;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'SodoSB';
+    width: 120px;
+    height: 59px;
+    border-radius: 50px;
+    margin: 20px 0 20px 300px;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.form-inputs article {
+    margin: 20px 0 0 0;
+    color: #000000de;
+    font-size: 16px;
+    font-family: 'SodoR';
+    width: 390px;
+    line-height: 22px;
+}
+
+.form-content-top {
+    margin-bottom: 50px;
+}
+
+.form-content input {
+    padding: 16px 20px;
+    border-radius: 7px;
+    border: 1px solid #00000094;
+    outline: none;
+}
+
+.form-content input::placeholder {
+    color: #000000;
+    font-size: 17px;
+    font-family: 'SodoR';
+}
+
+.form-inputs-bottom-signin {
+    margin: 30px 0;
+}
+
+.form-inputs-bottom-signin h4 {
+    margin: inherit;
+    color: #00000094;
+    font-family: 'SodoB';
+    font-size: 14px;
+}
+
+.form-inputs-bottom-signin p {
+    margin: inherit;
+    color: #000000;
+    font-size: 16px !important;
+    font-family: 'SodoR' !important;
+    line-height: 22px;
+}
+
+#checkbox-label {
+    margin: inherit;
+    color: #000000;
+    font-size: 16px !important;
+    font-family: 'SodoR' !important;
+    line-height: 22px;
+}
+
+.form-inputs-bottom-signin a {
+    color: #00754a;
+    text-decoration: underline;
+    font-family: 'SodoB';
+}
+
+#forgot {
+    display: block;
+    margin: 20px 0;
+}
+
+.errormesage {
+    color: #d62b1f;
+    font-size: 14px;
+    font-family: 'SodoR';
+    margin: 7px 0 7px 15px;
+}
+
+.error {
+    border-color: #d62b1f;
+}
+
+.joinnow-footer {
+    /* margin-left: 100px; */
+    overflow-x: hidden;
+}
+
+.signin-form-bottom {
+    text-align: center;
+    margin: 50px 0 100px 0;
+}
+
+.signin-form-bottom h3 {
+    font-size: 14px;
+    color: #00754a;
+    font-family: 'SodoSB';
+}
+
+.signin-form-bottom p {
+    font-size: 16px;
+    color: #000000de;
+    font-family: 'SodoR';
+    width: 400px;
+    line-height: 30px;
+    margin: 20px auto;
+}
+
+#signin-joinnow {
+    background: #fff;
+    color: #00754a;
+    border: 1px solid #00754a;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#signin-joinnow:hover {
+    background: #d1d0d03f;
+}
+
+.activeButton {
+    background-color: #00754a;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width:1120px) {
+    .signin-footer {
+        display: none;
+    }
+}
+
+@media (max-width:610px) {
+    .form-area-head-signin h2{
+        width: 90%;
+        font-size: 22px;
+        margin: 100px auto;
+    }
+    .form-area {
+        width: 90%;
+    }
+
+    .form-area-head p {
+        width: 90%;
+    }
+
+    .form-inputs {
+        width: 90%;
+    }
+
+    #signin-button {
+        width: 35%;
+        margin: 20px 0 20px 65%;
+
+    }
+    .signin-form-bottom{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .signin-form-bottom p{
+        width: 90%;
+    }
+}

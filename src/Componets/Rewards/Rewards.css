@@ -1,0 +1,528 @@
+  .rewards {
+    overflow: hidden;
+  }
+
+  .rewards-header-bottom {
+    background-color: #1e3932;
+    color: #fff;
+    font-size: 14px;
+    font-family: "SodoB";
+    letter-spacing: 2px;
+    padding: 17px 0;
+    width: 100%;
+  }
+
+  .rewards-header-bottom h3 {
+    font-size: 14px;
+    color: #fff;
+    font-family: "SodoB";
+    letter-spacing: 2px;
+  }
+
+  .rewards-main {
+    background: url('../img/Untitled\ design.png')center/cover;
+    height: 80vh;
+    background-color: #d4e9e2;
+    height: fit-content;
+  }
+
+  .rewards-main-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .rewards-main-top-content h2 {
+    color: #000000de;
+    font-size: 36px;
+    font-family: 'SodoSB';
+    width: 255px;
+  }
+
+  .rewards-main-top-content p {
+    font-size: 19px;
+    font-family: 'SodoSB';
+    margin: 20px 0 40px 0;
+  }
+
+  #rewards-joinnow {
+    background: #00754a;
+    color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0;
+  }
+
+  .rewards-main-top-content article {
+    color: #000000de;
+    font-size: 19px;
+    font-family: 'SodoR';
+    margin: 40px 0;
+  }
+
+  .rewards-main-top-content a {
+    text-decoration: underline;
+    color: #000000de;
+  }
+
+  .rewards-footer {
+    margin-top: 100px;
+  }
+
+  .easyjob-cards-top {
+    text-align: center;
+    margin: 150px 0 50px 0;
+  }
+
+  .easyjob-cards-top h3 {
+    font-size: 28px;
+    font-family: 'SodoSB';
+    font-weight: 600;
+    color: #000000de;
+
+  }
+
+  .easyjob-cards-top p {
+    font-size: 16px;
+    font-family: 'SodoR';
+    color: #000000de;
+    margin: 20px 0;
+  }
+
+  .easyjob-cards-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+
+  .easyjob-card img {
+    width: 48px;
+  }
+
+  .easyjob-card h3 {
+    font-size: 19px;
+    color: #000000de;
+    font-family: 'SodoSB';
+    margin: 25px 0 15px 0;
+  }
+
+  .easyjob-card p {
+    width: 381px;
+    font-size: 15px;
+    font-family: 'SodoR';
+    line-height: 20px;
+  }
+
+  .easyjob-card a {
+    color: #00754a;
+    text-decoration: underline;
+  }
+
+  .rewards-main-endless-extras {
+    margin: 100px 0;
+  }
+
+  .endless-extras-top {
+    text-align: center;
+  }
+
+  .endless-extras-top h3 {
+    font-size: 28px;
+    font-family: 'SodoSB';
+    font-weight: 600;
+    color: #000000de;
+  }
+
+  .endless-extras-top p {
+    font-size: 16px;
+    font-family: 'SodoR';
+    color: #000000de;
+    padding: 30px 0;
+    width: 720px;
+    margin: 0 auto;
+  }
+
+  .endless-extras-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  .endless-extras-card img {
+    width: 102px;
+  }
+
+  .endless-extras-card h3 {
+    font-size: 19px;
+    color: #000000de;
+    font-family: 'SodoSB';
+    margin: 25px 0 15px 0;
+  }
+
+  .endless-extras-card p {
+    width: 389px;
+    font-size: 15px;
+    font-family: 'SodoR';
+    line-height: 20px;
+    margin: 0 auto;
+  }
+
+  .endless-extras-card a {
+    display: inline-block;
+    color: #00754a;
+    text-decoration: underline;
+    margin-top: 20px;
+  }
+
+  .rewards-main-cashorcards {
+    /* margin: 100px 0; */
+    background-color: #f2f0eb;
+  }
+
+  .rewards-main-cashorcards-top {
+    text-align: center;
+    padding: 70px 0;
+  }
+
+  .rewards-main-cashorcards-top h3 {
+    font-size: 28px;
+    font-family: 'SodoSB';
+    font-weight: 600;
+    color: #000000de;
+    margin: 0 0 20px 0;
+
+  }
+
+  .rewards-main-cashorcards-top p {
+    font-size: 16px;
+    font-family: 'SodoR';
+    color: #000000de;
+    padding: 30px 0;
+    width: 720px;
+    margin: 0 auto;
+  }
+
+  .cashorcards-content-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    /* margin: 0 auto; */
+    /* align-items: center; */
+  }
+
+  .rewards-main-cashorcards-content img {
+    width: 112px;
+  }
+
+  .cashorcard-middle {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .cashorcard-middle-left img {
+    margin-right: 20px;
+  }
+
+  .cashorcard-right-left img {
+    margin-right: 20px;
+  }
+
+  .cashorcard-right {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .cashorcard-left h2 {
+    font-size: 24px;
+    color: #000000de;
+    font-family: 'SodoSB';
+  }
+
+  .cashorcard-left p {
+    font-size: 16px;
+    font-family: 'SodoR';
+    color: #000000de;
+    padding: 10px 0;
+    margin: 0 auto;
+  }
+
+  .cashorcards-content-cards {
+    padding: 20px 0 40px 0;
+  }
+
+  .cashorcards-content-cards h3 {
+    font-size: 19px;
+    font-family: 'SodoSB';
+    color: #000000de;
+  }
+
+  .cashorcards-content-cards p {
+    width: 300px;
+    color: #000000de;
+    margin-top: 20px;
+    font-family: 'SodoR';
+    line-height: 20px;
+  }
+
+  .rewards-coming {
+    background: url('../img/Untitled\ design\ \(1\).jpg')center/cover;
+    height: 90vh;
+  }
+
+  .rewards-coming-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+  }
+
+  .rewards-coming-content h2 {
+    font-size: 28px;
+    font-family: 'SodoSB';
+    font-weight: 600;
+    color: #000000de;
+    margin-bottom: 40px;
+  }
+
+  .rewards-coming-content p {
+    font-size: 16px;
+    font-family: 'SodoR';
+    color: #000000de;
+    width: 611px;
+    margin: 0 auto;
+  }
+
+  .rewards-coming-content img {
+    width: 195px;
+    margin: 20px 0;
+  }
+
+  .rewards-coming-content a {
+    color: #00754a;
+    text-decoration: underline;
+  }
+
+  #joinnow-rewards-coming {
+    background-color: #00754a;
+    color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  #joinnow-rewards-coming:hover {
+    background-color: #088456;
+  }
+
+  .rewards-question {
+    /* position: absolute; */
+    margin: 80px 0 80px 200px;
+  }
+
+  .rewards-question h2 {
+    font-size: 28px;
+    font-family: 'SodoSB';
+    font-weight: 600;
+    color: #000000de;
+    margin-bottom: 30px;
+  }
+
+  .rewards-question p {
+    font-size: 15px;
+    font-family: 'SodoR';
+    color: #000000de;
+    width: 661px;
+  }
+
+  .rewards-question a {
+    color: #00754a;
+    text-decoration: underline;
+  }
+
+  .rewards-rules {
+    background-color: #f9f9f9;
+  }
+
+  .rewards-rules-top {
+    padding: 40px 0 0 0;
+  }
+
+  .rewards-rules-top p {
+    font-size: 14px;
+    font-family: 'SodoR';
+    width: 980px;
+    line-height: 30px;
+    color: #000000de;
+    padding: 10px 0;
+  }
+
+  .rewards-rules-top a {
+    color: #00754a;
+    text-decoration: underline;
+  }
+
+  .rewards-rules-content {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+  }
+
+  .rules-content-top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rules-content-bottom {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .rules-card {
+    margin: 10px 0;
+  }
+
+  .rules-card h4 {
+    font-size: 14px;
+    font-family: 'SodoB';
+    color: #00000094;
+  }
+
+  .rules-card p {
+    font-size: 14px;
+    color: #000000de;
+    font-family: 'SodoR';
+    margin: 10px 40px 10px 0;
+    line-height: 20px;
+    width: 680px;
+  }
+
+  .rules-card a {
+    color: #00754a;
+    text-decoration: underline;
+  }
+
+  @media (max-width:1340px) {
+    .container-px {
+      width: inherit;
+      margin: 0 auto;
+    }
+
+    .rewards-header-bottom h3 {
+      margin-left: 3%;
+    }
+
+    .rewards-main-top-content {
+      margin-left: 3%;
+    }
+
+    .easyjob-cards-cards {
+      display: block;
+    }
+
+    .easyjob-card p {
+      width: 40%;
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .easyjob-card{
+      margin: 20px auto;
+    }
+    .easyjob-cards-top h3{
+      width: 80%;
+      margin: 0 auto;
+      font-size: 20px;
+    }
+    .easyjob-cards-top p{
+      font-size: 14px;
+      width: 80%;
+      margin: 20px auto;
+    }
+    .easyjob-card p {
+      width: 75%;
+      margin: 0 auto;
+    }
+    .rewards-main-top-content h2{
+      font-size: 25px;
+    }
+    .rewards-main-top-content p,article{
+      font-size: 16px;
+    }
+    .rewards-main-endless-extras {
+      display: none;
+    }
+
+    .rewards-main-cashorcards{
+      display: none;
+    }
+    .rewards-coming-content p{
+      width: 80%;
+      margin: 0 auto;
+    }
+    .rewards-coming-content h2{
+      font-size: 22px;
+    }
+    .rewards-question{
+      display: none;
+    }
+    .rewards-rules-content{
+      display: inherit;
+    }
+    .rules-content-top {
+      display: inherit;
+    }
+  
+    .rules-content-bottom {
+      display: inherit;
+  
+    }
+    .rewards-rules-top p {
+      width: 80%;
+      margin: 0 auto;
+
+    }
+    .rules-card h4 {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .rules-card p {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .rewards-footer{
+      display: none;
+    }
+  }
+
+  @media (max-width:576px) {
+    .rewards-segmented{
+      display: none;
+    }
+  }

@@ -1,0 +1,265 @@
+.container-gift{
+    width: 92%;
+    margin: 0 auto;
+  }
+  .container{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .container-px{
+    width: 1450px;
+    margin: 0 auto;
+  }
+
+.home-area {
+    margin: 30px 0;
+}
+
+.home-area-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    margin: 18px 0;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 624px;
+    background-color: #006241;
+    width: 725px;
+    text-align: center;
+}
+
+.content-text h2 {
+    font-size: 50px;
+    color: #fff;
+    font-family: "Sodo";
+    width: 450px;
+    line-height: 65px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.content-text p {
+    font-size: 24px;
+    color: #fff;
+    font-family: "Sodo";
+    width: 517px;
+    line-height: 40px;
+    margin: 20px 0;
+}
+
+.content-text a {
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    width: 120px;
+    padding: 8px 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #fff;
+    transition: .3s;
+}
+
+.content:nth-child(1) .content-text a:hover {
+    background-color: #0a4b35;
+}
+
+.content-img img {
+    width: 725px;
+    height: 624px;
+}
+
+.content:nth-child(2) .content-text {
+    background-color: #92cbff;
+}
+
+.content:nth-child(2) .content-text h2 {
+    color: #1e3932;
+    letter-spacing: 3px;
+    width: 500px;
+}
+
+.content:nth-child(2) .content-text p {
+    color: #1e3932;
+}
+
+.content:nth-child(2) .content-text a {
+    width: 140px;
+    color: #1e3932;
+}
+
+.content:nth-child(2) .content-text a:hover {
+    background-color: #83b4e2;
+}
+
+.content:nth-child(3) .content-text {
+    background-color: #eb81a5;
+}
+
+.content:nth-child(3) .content-text h2 {
+    color: #1e3932;
+    letter-spacing: 3px;
+    width: 500px;
+}
+
+.content:nth-child(3) .content-text p {
+    color: #1e3932;
+}
+
+.content:nth-child(3) .content-text a {
+    width: 120px;
+    color: #1e3932;
+}
+
+.content:nth-child(3) .content-text a:hover {
+    background-color: #da7798;
+}
+
+.content:nth-child(4) .content-text {
+    background-color: #cbe678;
+}
+
+.content:nth-child(4) .content-text h2 {
+    color: #1e3932;
+    letter-spacing: 3px;
+    width: 500px;
+}
+
+.content:nth-child(4) .content-text p {
+    color: #1e3932;
+}
+
+.content:nth-child(4) .content-text a {
+    width: 120px;
+    color: #1e3932;
+}
+
+.content:nth-child(4) .content-text a:hover {
+    background-color: #b3cc67;
+}
+
+.information-area {
+    padding: 30px 0 15px 0;
+    font-size: 13px;
+    font-family: "Sodo";
+    width: 620px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.information-area a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.border {
+    width: 100%;
+    height: 2px;
+    background-color: #afafaf7e;
+    box-shadow: 2px 3px 2px 0px rgba(175, 175, 175, 0.162);
+    margin: 0 0 30px 0;
+}
+
+@media (max-width:1340px) {
+    .container-px {
+        width: inherit;
+        margin: 0 auto;
+    }
+    .home-area{
+        width: 100%;
+    }
+    .content {
+        display: inherit;
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .content-text {
+        width: 100%;
+    }
+
+    .content-img img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .home-area-wrapper {
+        margin: initial;
+        justify-content: inherit;
+        width: inherit;
+    }
+
+    /* .content-text h2,p,a{
+        width: 90%;
+    } */
+    .information-area {
+        display: none;
+    }
+    .home-footer{
+        display: none;
+    }
+    .border {
+        display: none;
+    }
+}
+
+@media (max-width:576px) {
+    .content-text {
+        width: 90%;
+        height: 403px;
+        margin: 10px auto;
+    }
+    .content-img img {
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+        object-fit: cover;
+    }
+    .content-text h2{
+        width: 90%;
+        font-size: 30px;
+        line-height: 35px;
+        padding: 15px 0;
+    }
+    .content-text p{
+        width: 90%;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .content-text a{
+        margin-bottom: 10px;
+    }
+    
+    .content:nth-child(2) .content-text h2 {
+        width: 90%;
+    }
+    
+    .content:nth-child(3) .content-text h2 {
+        width: 90%;
+    }  
+    
+    .content:nth-child(4) .content-text h2 {
+        width: 90%;
+    }
+    
+
+    
+}

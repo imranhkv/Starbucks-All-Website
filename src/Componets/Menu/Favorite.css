@@ -1,0 +1,33 @@
+.favorite{
+    padding: 0 0 0 90px;
+    margin: 50px 0;
+}
+.favorite h3{
+    font-family: 'SodoB';
+    color: #000000de;
+    font-size: 24px;
+}
+.favorite img{
+    margin: 40px 0 25px 0;
+    width: 200px;
+}
+.favorite h4{
+    font-family: 'SodoSB';
+    color: #000000de;
+    font-size: 28px;
+    width: 300px;
+    line-height: 40px;
+}
+.favorite p{
+    font-family: 'SodoR';
+    color: #00000094;
+    font-size: 19px;
+    width: 320px;
+    margin: 16px 0 30px 0;
+}
+.favorite a{
+    display: inline-block;
+    color: #000;
+    margin-right: 20px;
+    width: 95px;
+}

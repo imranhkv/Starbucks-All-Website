@@ -1,0 +1,84 @@
+.footer{
+    font-family: "SodoR";
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+}
+.footer-content-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.footer-content-head h3{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.footer-content-bottom a{
+    font-size: 16px;
+    color: #00000094;
+    margin: 20px 0;
+    width: 200px;
+    transition: .3s;
+}
+.footer-content-bottom a:hover{
+    color: #000000;
+}
+
+.footer-border{
+    width: 100%;
+    height: 2px;
+    background-color: #afafaf7e;
+    box-shadow: 2px 3px 2px 0px rgba(175, 175, 175, 0.162);
+    margin: 30px 0;
+}
+.social-networks{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 40px 0;
+}
+.social-networks i{
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+.privacy-terms ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    list-style: none;
+    margin: 20px 0 30px 0;
+}
+.privacy-terms a{
+    color: #000000de;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Sodo";
+}
+.privacy-terms span{
+    display: inline-block;
+    height: 20px;
+    width: 1px;
+    background-color: #000000;
+    color: #000000;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.privacy-terms a:hover{
+    text-decoration: underline;
+}
+.designed{
+    margin: 20px 0 20px 0;
+    color: #333;
+}
+.designed a{
+    color: #006241;
+}
